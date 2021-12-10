@@ -5540,7 +5540,7 @@
 		<Metadata name="CommonTemplate.СоответствиеТэговОбщимФормам.Template" id="c8d797cf-e72c-4d99-bd6f-f4a8b0ca7c8d.0" configVersion="0afd04d5a706ec1151990242ac11000200000000"/>
 		<Metadata name="CommonTemplate.СтруктураПодчиненности" id="7a62d031-c340-4b1e-90af-fff697a2e979" configVersion="581d1be2a706ec1151990242ac11000200000000"/>
 		<Metadata name="CommonTemplate.СтруктураПодчиненности.Template" id="7a62d031-c340-4b1e-90af-fff697a2e979.0" configVersion="445e0ad5a706ec1151990242ac11000200000000"/>
-		<Metadata name="Configuration.БиблиотекаСтандартныхПодсистемДемо" id="66193438-abc5-410b-a1f1-a204102d1a62" configVersion="67dc9e278c5f0d459d81ec9b75febacd00000000"/>
+		<Metadata name="Configuration.БиблиотекаСтандартныхПодсистемДемо" id="66193438-abc5-410b-a1f1-a204102d1a62" configVersion="4c4029fc929f314b89cad8e1b7984b9e00000000"/>
 		<Metadata name="Configuration.БиблиотекаСтандартныхПодсистемДемо.ClientApplicationInterface" id="f389d417-7804-4810-a1c5-a13b3209ad71.b" configVersion="ae3c9fcfa706ec1151990242ac11000200000000"/>
 		<Metadata name="Configuration.БиблиотекаСтандартныхПодсистемДемо.CommandInterface" id="f389d417-7804-4810-a1c5-a13b3209ad71.a" configVersion="da13cfd3a706ec1151990242ac11000200000000"/>
 		<Metadata name="Configuration.БиблиотекаСтандартныхПодсистемДемо.ExternalConnectionModule" id="f389d417-7804-4810-a1c5-a13b3209ad71.5" configVersion="5af09ecfa706ec1151990242ac11000200000000"/>
@@ -8349,6 +8349,7 @@
 		<Metadata name="Document.Встреча.Form.ФормаСписка.Form" id="02abb5e3-9d4e-4c45-af19-71796966ed19.0" configVersion="906e9bdda706ec1151990242ac11000200000000"/>
 		<Metadata name="Document.Встреча.ManagerModule" id="5657286b-114b-41de-ab7d-45d0f0d95e2d.2" configVersion="b84c2dd2a706ec1151990242ac11000200000000"/>
 		<Metadata name="Document.Встреча.ObjectModule" id="5657286b-114b-41de-ab7d-45d0f0d95e2d.0" configVersion="ce362dd2a706ec1151990242ac11000200000000"/>
+		<Metadata name="Document.Документ1" id="1f5bd31b-a825-400d-b814-270ee6ee8790" configVersion="73cafbbab86b0d4cb7abec865aaa3fee00000000"/>
 		<Metadata name="Document.Закупка" id="ed7c6b1f-3911-464f-8d8a-6dae1980422c" configVersion="d2f15f84a19e864981af190e5fc175d400000000">
 			<Metadata name="Document.Закупка.Attribute.Количество" id="6989fa02-7fc0-4db2-a23f-855e61c77b38"/>
 		</Metadata>
@@ -13262,7 +13263,7 @@
 		<Metadata name="Subsystem.Лаб1" id="5fa6b07e-2bc1-4365-bb5d-8b9434f095d2" configVersion="f78f42e778316a4099bab4b5f907530800000000"/>
 		<Metadata name="Subsystem.Лаб2" id="b8b84158-d8f0-4daa-b02f-d9d15947f55e" configVersion="44e423e3b7542a448a14d30493d1f8dc00000000"/>
 		<Metadata name="Subsystem.Лаб3" id="e1a18c18-99dc-4d9c-8f4b-cb68a7b3591d" configVersion="0b5ca7cefd9a7c4cbc4cef6c9859a0ef00000000"/>
-		<Metadata name="Subsystem.Лаб5" id="e9550eab-0100-4e19-89df-786b627778a6" configVersion="2f76d51511e0ca47a7a9a94dcdc4e06e00000000"/>
+		<Metadata name="Subsystem.Лаб5" id="e9550eab-0100-4e19-89df-786b627778a6" configVersion="b7faf31ceddf564dace6a25c7e181c4700000000"/>
 		<Metadata name="Subsystem.ПодключаемыеОтчетыИОбработки" id="7795348b-2f52-47f7-bf00-e11e5e795a43" configVersion="76db25e2a706ec1151990242ac11000200000000"/>
 		<Metadata name="Subsystem.СтандартныеПодсистемы" id="0421b67e-ed26-491d-ab98-ec59002ed4ce" configVersion="9a5b13e2a706ec1151990242ac11000200000000"/>
 		<Metadata name="Subsystem.СтандартныеПодсистемы.Subsystem.АдресныйКлассификатор" id="bb47ced2-31f9-4870-8633-20b986e53ccc" configVersion="70161ee2a706ec1151990242ac11000200000000"/>

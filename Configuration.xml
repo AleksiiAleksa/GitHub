@@ -2659,6 +2659,7 @@
 			<Document>Возврат</Document>
 			<Document>ПротоколОсмотраПациентов</Document>
 			<Document>doc</Document>
+			<Document>Документ1</Document>
 			<Sequence>_ДемоДвижениеТоваров</Sequence>
 			<DocumentJournal>_ДемоЖурналВсехДокументов</DocumentJournal>
 			<DocumentJournal>_ДемоСкладскиеДокументы</DocumentJournal>
