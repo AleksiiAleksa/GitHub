@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="AfterWrite">ПослеЗаписи</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Пациент" id="7">
+			<DataPath>Объект.Пациент</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ПациентКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ПациентРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="Возраст" id="10">
+			<DataPath>Объект.Возраст</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ВозрастКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ВозрастРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="НомерДокумента" id="13">
+			<DataPath>Объект.НомерДокумента</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НомерДокументаКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="НомерДокументаРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="Палата" id="16">
+			<DataPath>Объект.Палата</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ПалатаКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ПалатаРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="ДатаВремя" id="19">
+			<DataPath>Объект.ДатаВремя</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаВремяКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="ДатаВремяРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<InputField name="Жалобы" id="22">
+			<DataPath>Объект.Жалобы</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ЖалобыКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="ЖалобыРасширеннаяПодсказка" id="24"/>
+		</InputField>
+		<InputField name="ОбщийСтатус" id="25">
+			<DataPath>Объект.ОбщийСтатус</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОбщийСтатусКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="ОбщийСтатусРасширеннаяПодсказка" id="27"/>
+		</InputField>
+		<InputField name="ДиагнозОсновной" id="28">
+			<DataPath>Объект.ДиагнозОсновной</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДиагнозОсновнойКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="ДиагнозОсновнойРасширеннаяПодсказка" id="30"/>
+		</InputField>
+		<InputField name="ДиагнозСопутствующий" id="31">
+			<DataPath>Объект.ДиагнозСопутствующий</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДиагнозСопутствующийКонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="ДиагнозСопутствующийРасширеннаяПодсказка" id="33"/>
+		</InputField>
+		<InputField name="НазначенияИРекомендации" id="34">
+			<DataPath>Объект.НазначенияИРекомендации</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НазначенияИРекомендацииКонтекстноеМеню" id="35"/>
+			<ExtendedTooltip name="НазначенияИРекомендацииРасширеннаяПодсказка" id="36"/>
+		</InputField>
+		<InputField name="Врач" id="37">
+			<DataPath>Объект.Врач</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ВрачКонтекстноеМеню" id="38"/>
+			<ExtendedTooltip name="ВрачРасширеннаяПодсказка" id="39"/>
+		</InputField>
+		<InputField name="ЗавОРИТ" id="40">
+			<DataPath>Объект.ЗавОРИТ</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ЗавОРИТКонтекстноеМеню" id="41"/>
+			<ExtendedTooltip name="ЗавОРИТРасширеннаяПодсказка" id="42"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ПротоколОсмотраПациентов</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+</Form>
