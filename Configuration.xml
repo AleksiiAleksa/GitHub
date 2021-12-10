@@ -2629,6 +2629,7 @@
 			<Catalog>ОбщийСтатус</Catalog>
 			<Catalog>Диагноз</Catalog>
 			<Catalog>Товары</Catalog>
+			<Catalog>Справочник1</Catalog>
 			<Document>_ДемоЗаказПокупателя</Document>
 			<Document>_ДемоКорректировкаОстатковТоваровВМестахХранения</Document>
 			<Document>_ДемоНачислениеЗарплаты</Document>
